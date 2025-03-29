@@ -164,6 +164,15 @@ country AU: DFS-ETSI
 	# Item 65
 	(57000 - 71000 @ 2160), (20000 mW), NO-OUTDOOR
 
+country XD: DFS-FCC
+	(755 - 928 @ 16), (10000 mW)
+	(2400 - 2483.5 @ 40), (10000 mW)
+	(5150 - 5350 @ 160), (10000 mW), AUTO-BW
+	# i dont think devices like 5350-5470 very much
+	(5470 - 5895 @ 160), (10000 mW), AUTO-BW
+	(5925 - 7125 @ 320), (10000 mW), AUTO-BW
+	(57000 - 71000 @ 2160), (10000 mW), AUTO-BW
+
 country AW: DFS-ETSI
 	(2402 - 2482 @ 40), (20)
 	(5170 - 5250 @ 80), (20), AUTO-BW
